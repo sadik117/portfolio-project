@@ -18,7 +18,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 50px 200px;
+    margin: 40px 200px;
     
 }
 nav ul{
@@ -27,11 +27,16 @@ nav ul{
 }
 nav ul li{
     list-style: none;
-    margin: 30px;
+    margin: 25px;
 }
 nav li a{
     text-decoration: none;
-    font-size: 20px;
+    font-size: 30px;
+}
+.nav-title{
+  font-weight: bold;
+  font-size: 50px;
+
 }
 /* Shared Styles */
 .textcenter{
@@ -71,11 +76,6 @@ nav li a{
       "wdth" 100;
   }
 
-  .nav-title{
-    font-weight: bold;
-    font-size: 40px;
-
-  }
   .txtcolour{
     color: #FD6E0A;
   }
@@ -84,7 +84,7 @@ nav li a{
   .banner{
     display: flex;
     justify-content: space-between;
-    margin: 0 30px 0 180px;
+    margin: 0 40px 0 200px;
   }
   .banner-content{
     max-width: 580px;
@@ -94,7 +94,7 @@ nav li a{
         font-weight: bold;
   }
   .banner-title{
-     font-size: 85px;
+     font-size: 80px;
      font-weight: bold;
   }
   .bannerimage{
