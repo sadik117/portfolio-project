@@ -161,3 +161,43 @@ nav li a{
       padding: 10px 20px;
       margin-bottom: 24px;
     }
+
+    /* Responsive for Mobile Device */
+   
+    @media screen and (max-width:576px) {
+      .banner, 
+      nav, 
+      .about-items, 
+      .resume-container,
+      footer,
+      .footer-column{
+        flex-direction: column;
+        margin: auto;
+      }
+      nav ul li{
+        margin-right: auto;
+      }
+      .btn-primary{
+        margin-bottom: 10px;
+      }
+      .bannerimage{
+        width: auto;
+      }
+      .about secondarybg, 
+      .section-description, 
+      .footer-column,
+      .secondarybg,
+      footer input[type="text"], footer input[type="email"], footer textarea{
+        width: 0px auto;
+        padding: 0px;
+      }
+      .about{
+        padding: 20px;
+      }
+      .skill-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+      }
+    } 
+      
+    
